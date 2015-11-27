@@ -19,7 +19,8 @@
 
 + (UIImage *)ch_imageNamed:(NSString *)name {
     NSUInteger nameNum = arc4random_uniform(4);
-    return [self ch_imageNamed:@(nameNum).stringValue];
+//    return [self ch_imageNamed:@(nameNum).stringValue];
+    return [self ch_imageNamed:@""];
 }
 
 
